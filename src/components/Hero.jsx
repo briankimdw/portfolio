@@ -26,7 +26,7 @@ const Hero = () => {
           >
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 relative">
               <img 
-                src="/profile.jpg" 
+                src="/portfolio/profile.png" 
                 alt="Brian Kim"
                 className="w-full h-full rounded-full object-cover shadow-2xl border-4 border-gray-600"
               />
@@ -57,7 +57,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer
+            Video Journalism Final Website
           </motion.p>
           
           {/* About Me Content */}
@@ -76,19 +76,7 @@ const Hero = () => {
               </p>
               
               <p>
-                Passionate about teaching and mentoring — served as a TA for 5 semesters across mathematics 
-                and statistics courses including Calculus, Linear Algebra, Probability, and Statistical Inference.
-              </p>
-              
-              <p>
-                Software Engineering experience at <span className="text-white font-medium">Cisco/Duke University</span> and 
-                <span className="text-white font-medium"> Pospal</span>, focusing on full-stack development 
-                and scalable application design.
-              </p>
-              
-              <p>
-                Enthusiast for data science and applying mathematical concepts to solve real-world problems 
-                through innovative technology solutions.
+                Website is for a video journalism class taken in Fall 2025 to showcase all the projects I have done!
               </p>
             </div>
           </motion.div>
